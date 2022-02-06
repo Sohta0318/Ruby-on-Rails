@@ -130,9 +130,12 @@ GEM
     faraday_middleware (1.2.0)
       faraday (~> 1.0)
     ffi (1.15.5)
+    font-awesome-rails (4.7.0.8)
+      railties (>= 3.2, < 8.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
     hashie (5.0.0)
+    htmlbeautifier (1.4.1)
     i18n (1.9.1)
       concurrent-ruby (~> 1.0)
     iex-ruby-client (1.6.0)
@@ -290,6 +293,8 @@ DEPENDENCIES
   debug
   devise
   devise-bootstrap-views (~> 1.0)
+  font-awesome-rails
+  htmlbeautifier
   iex-ruby-client
   importmap-rails
   jbuilder
